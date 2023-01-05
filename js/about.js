@@ -34,8 +34,8 @@ function createMenu() {
   buttonAbout.setAttribute('class', 'mobile-menu-buttons');
   buttonIndex.appendChild(document.createTextNode('Index'));
   buttonAbout.appendChild(document.createTextNode('About'));
-  buttonIndex.onclick = function name() { restoreView(); location.href = "index.html"; };
-  buttonAbout.onclick = function name() { restoreView(); location.href = "about.html"; };
+  buttonIndex.onclick = function name() { restoreView(); window.location.href = 'index.html'; };
+  buttonAbout.onclick = function name() { restoreView(); window.location.href = 'about.html'; };
   navbar.appendChild(buttonIndex);
   navbar.appendChild(buttonAbout);
   menu.appendChild(navbar);
