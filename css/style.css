@@ -488,10 +488,6 @@ ul {
     white-space: nowrap;
   }
 
-  #nav-banner-list > li:nth-child(2) {
-    height: 1.3vw;
-  }
-
   #icon-face {
     height: 100%;
     aspect-ratio: 1 / 1;
@@ -789,12 +785,16 @@ ul {
     align-items: center;
   }
 
+  #nav-banner-list > li:nth-child(2) {
+    height: 1.3vw;
+  }
+
   #program-list > li:hover {
     background: gray;
     mix-blend-mode: color-dodge;
     cursor: pointer;
     transform: scale(1.05);
-    border: 0.15vw solid white
+    border: 0.15vw solid white;
   }
 
   #footer > img {
