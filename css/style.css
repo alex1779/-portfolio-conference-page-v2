@@ -122,8 +122,11 @@ ul {
   background: transparent;
   margin: 1vw 0 18vw 4vw;
   text-align: start;
-  color: #ec5242;
-  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url("../images/fire4.jpg");
+  font-weight: 500;
   font-size: 8vw;
   line-height: 8vw;
   font-family: Paytone One, sans-serif;
@@ -131,7 +134,7 @@ ul {
 
 #hero-inferior-paraf {
   background: transparent;
-  padding: 38vw 7vw 4vw 7vw;
+  padding: 2vw 7vw 4vw 7vw;
   margin: 0;
   text-align: start;
   color: #868686;
@@ -674,15 +677,18 @@ ul {
     margin: 0;
     text-align: start;
     font-weight: lighter;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url("../images/fire4.jpg");
     font-size: 5vw;
     line-height: 5vw;
-    color: #ec5242;
+    color: transparent;
     font-family: Paytone One, sans-serif;
   }
 
   #hero-inferior-paraf {
     background: transparent;
-    padding: 17.7vw 44vw 0 15vw;
+    padding: 5.7vw 44vw 0 15vw;
     margin: 0;
     text-align: start;
     color: #868686;
