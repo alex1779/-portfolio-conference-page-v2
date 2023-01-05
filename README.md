@@ -73,7 +73,7 @@
 
 ## 🚀 Video Link <a name="video-link"></a>
 
-- [Video Link Link](https://drive.google.com/file/d/1De8zO9Lmbap_2VdQrHsc8HP5eDfQMPj8/view?usp=sharing)
+- [Video Link Link](https://drive.google.com/file/d/1DuoxWYmqwHUIUOKcU-g_OT13VYP6PDrA/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
