@@ -131,7 +131,7 @@ ul {
 
 #hero-inferior-paraf {
   background: transparent;
-  padding: 0 7vw 4vw 7vw;
+  padding: 38vw 7vw 4vw 7vw;
   margin: 0;
   text-align: start;
   color: #868686;
@@ -398,7 +398,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .mobile-menu-button-close {
@@ -417,6 +417,7 @@ ul {
   aspect-ratio: 251 / 24;
   width: 90%;
   color: red;
+  margin: 1vw 0 4vw 0;
   font-weight: lighter;
   font-size: 6vw;
   line-height: 5vw;
@@ -469,7 +470,7 @@ ul {
     background: transparent;
     padding: 0;
     margin: 0;
-    margin-left: 71%;
+    margin-left: 69%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -479,9 +480,16 @@ ul {
 
   #nav-banner-list > li {
     color: white;
+    margin: 0.25vw;
+    padding: 0 0.5vw 0 0.5vw;
     font-weight: 300;
     font-size: 1.15vw;
     line-height: 112%;
+    white-space: nowrap;
+  }
+
+  #nav-banner-list > li:nth-child(2) {
+    height: 1.3vw;
   }
 
   #icon-face {
@@ -595,13 +603,18 @@ ul {
     font-size: 1.05vw;
   }
 
+  #navigation-list > li:nth-child(1) > a {
+    color: #f07f7e;
+    font-size: 1.05vw;
+  }
+
   #navigation-cccampaing {
     height: 70%;
-    padding: 0 2vw 0 2vw;
+    padding: 0.1vw 2vw 0 2vw;
     margin: 0 0 0 5vw;
-    border: 0.3vw solid green;
+    border: 0.3vw solid red;
     text-align: center;
-    color: green;
+    color: #f07f7e;
     font-weight: 700;
     font-size: 1vw;
     line-height: 270%;
@@ -673,7 +686,7 @@ ul {
 
   #hero-inferior-paraf {
     background: transparent;
-    padding: 6.7vw 44vw 0 15vw;
+    padding: 17.7vw 44vw 0 15vw;
     margin: 0;
     text-align: start;
     color: #868686;
@@ -748,7 +761,7 @@ ul {
     margin: 0.15vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background: #3b3e45;
     mix-blend-mode: color-dodge;
@@ -781,7 +794,7 @@ ul {
     mix-blend-mode: color-dodge;
     cursor: pointer;
     transform: scale(1.05);
-    border-radius: 1vw;
+    border: 0.15vw solid white
   }
 
   #footer > img {
@@ -812,8 +825,8 @@ ul {
 
   #program-list > li > h5 {
     text-align: center;
-    color: #ff4f38;
-    margin: 0;
+    color: #ff5438;
+    margin: 1vw 0 1vw 0;
     font-weight: 600;
     font-size: 1.6vw;
     line-height: 1vw;
@@ -829,7 +842,6 @@ ul {
     font-size: 1vw;
     line-height: 1.9vw;
     border: none;
-    margin-bottom: 1.9vw;
   }
 
   #program-end {
@@ -839,8 +851,10 @@ ul {
     margin: 0;
     text-align: center;
     color: white;
-    font-weight: 600;
-    font-size: 1.35vw;
+    text-decoration: underline;
+    text-underline-offset: 0.3vw;
+    font-weight: 100;
+    font-size: 1vw;
     line-height: 1vw;
     border: none;
     display: block;

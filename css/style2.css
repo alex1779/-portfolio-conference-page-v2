@@ -339,7 +339,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .mobile-menu-button-close {
@@ -358,6 +358,7 @@ ul {
   aspect-ratio: 251 / 24;
   width: 90%;
   color: red;
+  margin: 1vw 0 4vw 0;
   font-weight: lighter;
   font-size: 6vw;
   line-height: 5vw;
@@ -407,7 +408,7 @@ ul {
     background: transparent;
     padding: 0;
     margin: 0;
-    margin-left: 71%;
+    margin-left: 69%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -417,9 +418,16 @@ ul {
 
   #nav-banner-list > li {
     color: white;
+    margin: 0.25vw;
+    padding: 0 0.5vw 0 0.5vw;
     font-weight: 300;
     font-size: 1.15vw;
     line-height: 112%;
+    white-space: nowrap;
+  }
+
+  #nav-banner-list > li:nth-child(2) {
+    height: 1.3vw;
   }
 
   #icon-face {
@@ -528,7 +536,7 @@ ul {
     text-decoration: none;
   }
 
-  #navigation-list > li:nth-child(1) > a {
+  #navigation-list > li:nth-child(2) > a {
     color: #f07f7e;
     font-size: 1.05vw;
   }
@@ -540,11 +548,11 @@ ul {
 
   #navigation-cccampaing {
     height: 70%;
-    padding: 0 2vw 0 2vw;
+    padding: 0.1vw 2vw 0 2vw;
     margin: 0 0 0 5vw;
-    border: 0.3vw solid green;
+    border: 0.3vw solid red;
     text-align: center;
-    color: green;
+    color: #f07f7e;
     font-weight: 700;
     font-size: 1vw;
     line-height: 270%;

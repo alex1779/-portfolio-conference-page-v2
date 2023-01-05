@@ -24,19 +24,17 @@ function createMenu() {
   button.onclick = function name() { restoreView(); };
   menu.appendChild(button);
   const navbar = document.createElement('nav');
-  const buttonPortfolio = document.createElement('button');
+  const buttonIndex = document.createElement('button');
   const buttonAbout = document.createElement('button');
-  const buttonContact = document.createElement('button');
   navbar.setAttribute('class', 'mobile-menu-navbar');
-  buttonPortfolio.setAttribute('class', 'mobile-menu-buttons');
+  buttonIndex.setAttribute('class', 'mobile-menu-buttons');
   buttonAbout.setAttribute('class', 'mobile-menu-buttons');
-  buttonContact.setAttribute('class', 'mobile-menu-buttons');
-  buttonPortfolio.appendChild(document.createTextNode('Program'));
-  buttonAbout.appendChild(document.createTextNode('Schedule'));
-  buttonContact.appendChild(document.createTextNode('Tickets'));
-  navbar.appendChild(buttonPortfolio);
+  buttonIndex.appendChild(document.createTextNode('Index'));
+  buttonAbout.appendChild(document.createTextNode('About'));
+  buttonIndex.onclick = function name() { restoreView(); location.href = "index.html"; };
+  buttonAbout.onclick = function name() { restoreView(); location.href = "about.html"; };
+  navbar.appendChild(buttonIndex);
   navbar.appendChild(buttonAbout);
-  navbar.appendChild(buttonContact);
   menu.appendChild(navbar);
   return menu;
 }
