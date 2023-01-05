@@ -120,7 +120,7 @@ ul {
 
 #hero-inferior-title {
   background: transparent;
-  margin: 1vw 0 18vw 4vw;
+  margin: 1vw 0 9vw 4vw;
   text-align: start;
   color: transparent;
   -webkit-background-clip: text;
@@ -686,7 +686,7 @@ ul {
 
   #hero-inferior-paraf {
     background: transparent;
-    padding: 5.7vw 44vw 0 15vw;
+    padding: 1vw 44vw 0 15vw;
     margin: 0;
     text-align: start;
     color: #868686;
