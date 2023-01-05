@@ -20,6 +20,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [ Video Link](#video-link)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -57,14 +58,25 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Deploy Page Link](https://alex1779.github.io/-portfolio-conference-page-v2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- VIDEO LINK -->
+
+## 🚀 Video Link <a name="video-link"></a>
+
+- [Video Link Link](https://drive.google.com/file/d/1De8zO9Lmbap_2VdQrHsc8HP5eDfQMPj8/view?usp=sharing)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
