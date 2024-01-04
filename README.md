@@ -62,7 +62,7 @@
 <!-- LIVE DEMO -->
 ## 🚀 See a little quick explananation below <a name="live-demo"> </a>
 
-[![Watch the video](https://github.com/alex1779/-portfolio-conference-page-v2/blob/main/images/conference.png)](https://drive.google.com/file/d/1DuoxWYmqwHUIUOKcU-g_OT13VYP6PDrA/view?usp=sharing)
+[![Watch the video](https://github.com/alex1779/-portfolio-conference-page-v2/blob/main/images/conference.png)](https://youtu.be/LhZBP6YLImM)
 
 <!-- VIDEO LINK -->
 
