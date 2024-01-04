@@ -61,17 +61,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Deploy Page Link](https://alex1779.github.io/-portfolio-conference-page-v2/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- VIDEO LINK -->
 
-## 🚀 Video Link <a name="video-link"></a>
+## 🚀 Live Demo <a name="video-link"></a>
 
 - [Video Link Link](https://drive.google.com/file/d/1DuoxWYmqwHUIUOKcU-g_OT13VYP6PDrA/view?usp=sharing)
 
